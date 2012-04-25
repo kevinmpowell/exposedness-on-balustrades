@@ -10,7 +10,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'debugger', '1.0.0'
+  gem 'debugger', '1.1.1'
   gem 'sqlite3', '1.3.6'
   gem 'rspec-rails', '2.9.0'
   gem 'factory_girl_rails', '3.0.0'
