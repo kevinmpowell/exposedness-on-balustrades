@@ -2,6 +2,7 @@ source :rubygems
 
 gem 'rails', '3.2.3'
 gem 'jquery-rails', '2.0.2'
+gem 'eventmachine', '1.0.0.beta.3'
 gem 'thin', '1.3.1'
 
 group :development do
