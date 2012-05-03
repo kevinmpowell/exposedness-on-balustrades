@@ -19,7 +19,8 @@ end
 
 group :test do
   gem 'shoulda-matchers', '1.1.0'
-  gem 'spork', '0.9.0'
+  gem 'capybara', '1.1.2'
+  gem 'spork-rails', '3.2.0'
 end
 
 group :production do
