@@ -20,4 +20,5 @@ class Territory < ActiveRecord::Base
   belongs_to :zone
   has_one :card
   has_one :territory_ownership
+  has_and_belongs_to_many :neighbors, :join_table => "neighbors", :foreign_key => "neighbor_id", :association_foreign_key => "territory_id"
 end
