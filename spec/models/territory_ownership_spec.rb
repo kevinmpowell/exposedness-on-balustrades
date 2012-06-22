@@ -11,11 +11,6 @@
 # **territory_id ** | `integer         ` | ``
 # **updated_at   ** | `datetime        ` | `not null`
 #
-# Indexes
-#
-#  index_territory_ownerships_on_player_id     (player_id)
-#  index_territory_ownerships_on_territory_id  (territory_id)
-#
 
 require 'spec_helper'
 

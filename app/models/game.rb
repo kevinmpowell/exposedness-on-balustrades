@@ -10,11 +10,6 @@
 # **ruleset_id ** | `integer         ` | ``
 # **updated_at ** | `datetime        ` | `not null`
 #
-# Indexes
-#
-#  index_games_on_board_id    (board_id)
-#  index_games_on_ruleset_id  (ruleset_id)
-#
 
 class Game < ActiveRecord::Base
   belongs_to :board

@@ -1,313 +1,318 @@
 --- 
-:links: 
-  :aa: 
-  - :af
-  - :ab
-  - :ef
-  :ab: 
-  - :aa
-  - :af
-  - :ag
-  - :ai
-  :ac: 
-  - :ai
-  - :ad
-  - :bd
-  :ad: 
-  - :ac
-  - :ai
-  - :ag
-  - :ah
-  :ae: 
-  - :af
-  - :ag
-  - :ah
-  - :cb
-  :af: 
-  - :aa
-  - :ab
-  - :ae
-  - :ag
-  :ag: 
-  - :ab
-  - :ad
-  - :ae
-  - :af
-  - :ah
-  - :ai
-  :ah: 
-  - :ad
-  - :ae
-  - :ag
-  :ai: 
-  - :ab
-  - :ac
-  - :ad
-  - :ag
-  :ba: 
-  - :bc
-  - :bb
-  :bb: 
-  - :ba
-  - :bc
-  - :bd
-  - :de
-  :bc: 
-  - :ba
-  - :bb
-  - :bd
-  :bd: 
-  - :ac
-  - :bb
-  - :bc
-  :ca: 
-  - :cb
-  - :cg
-  - :cc
-  - :cd
-  :cb: 
-  - :ae
-  - :ca
-  - :cd
-  :cc: 
-  - :ca
-  - :ce
-  - :cg
-  - :cd
-  - :cf
-  :cd: 
-  - :ca
-  - :cb
-  - :cc
-  - :cf
-  :ce: 
-  - :cc
-  - :cf
-  - :cg
-  - :eg
-  - :dc
-  - :de
-  :cf: 
-  - :cc
-  - :cd
-  - :ce
-  - :eg
-  - :ea
-  - :ek
-  :cg: 
-  - :ca
-  - :cc
-  - :ce
-  - :de
-  :da: 
-  - :db
-  - :de
-  - :df
-  :db: 
-  - :da
-  - :dc
-  - :dd
-  - :de
-  - :df
-  :dc: 
-  - :ce
-  - :db
-  - :de
-  - :eg
-  :dd: 
-  - :db
-  - :df
-  :de: 
-  - :bb
-  - :ce
-  - :cg
-  - :da
-  - :db
-  - :dc
-  :df: 
-  - :da
-  - :db
-  - :dd
-  :ea: 
-  - :cf
-  - :ek
-  - :db
-  - :ec
-  - :eg
-  :eb: 
-  - :da
-  - :ec
-  - :eh
-  - :ej
-  - :ek
-  - :ei
-  :ec: 
-  - :ea
-  - :eb
-  - :ei
-  - :eg
-  :ed: 
-  - :ej
-  - :el
-  - :ef
-  - :eh
-  :ee: 
-  - :ef
-  - :eh
-  :ef: 
-  - :aa
-  - :ed
-  - :ee
-  - :eh
-  - :el
-  :eg: 
-  - :ce
-  - :cf
-  - :dc
-  - :ea
-  - :ec
-  :eh: 
-  - :eb
-  - :ed
-  - :ee
-  - :ef
-  - :ej
-  :ei: 
-  - :fb
-  - :eb
-  - :ec
-  :ej: 
-  - :eb
-  - :ed
-  - :eh
-  - :ek
-  - :el
-  :ek: 
-  - :cf
-  - :ea
-  - :eb
-  - :ej
-  :el: 
-  - :ed
-  - :ef
-  - :ej
-  :fa: 
-  - :fc
-  - :fd
-  :fb: 
-  - :ei
-  - :fc
-  - :fa
-  :fc: 
-  - :fa
-  - :fb
-  - :fd
-  :fd: 
-  - :fa
-  - :fb
-  - :fc
-:names: 
-  :a: North America
-  :aa: Alaska
-  :ab: Alberta
-  :ac: Central America
-  :ad: Eastern United States
-  :ae: Greenland
-  :af: Northwest Territory
-  :ag: Ontario
-  :ah: Quebec
-  :ai: Western United States
-  :b: South America
-  :ba: Argentina
-  :bb: Brazil
-  :bc: Peru
-  :bd: Venezuela
-  :c: Europe
-  :ca: Great Britain
-  :cb: Iceland
-  :cc: Northern Europe
-  :cd: Scandinavia
-  :ce: Southern Europe
-  :cf: Ukraine
-  :cg: Western Europe
-  :d: Africa
-  :da: Congo
-  :db: East Africa
-  :dc: Egypt
-  :dd: Madagascar
-  :de: North Africa
-  :df: South Africa
-  :e: Asia
-  :ea: Afghanistan
-  :eb: China
-  :ec: India
-  :ed: Irkutsk
-  :ee: Japan
-  :ef: Kamchatka
-  :eg: Middle East
-  :eh: Mongolia
-  :ei: Siam
-  :ej: Siberia
-  :ek: Ural
-  :el: Yakutsk
-  :f: Australia
-  :fa: Eastern Australia
-  :fb: Indonesia
-  :fc: New Guinea
-  :fd: Western Australia
-:reinforce: 
-  :a: 5
-  :b: 2
-  :c: 5
-  :d: 3
-  :e: 7
-  :f: 2
-:groups: 
+:name: Standard Board
+:zones:
   :a: 
-  - :aa
-  - :ab
-  - :ac
-  - :ad
-  - :ae
-  - :af
-  - :ag
-  - :ah
-  - :ai
+    :name: North America
+    :reinforcements: 5
+    :territories:
+      :aa: 
+        :name: Alaska
+        :neighbors:
+          - :af
+          - :ab
+          - :ef
+      :ab: 
+        :name: Alberta
+        :neighbors: 
+        - :aa
+        - :af
+        - :ag
+        - :ai
+      :ac: 
+        :name: Central America
+        :neighbors: 
+        - :ai
+        - :ad
+        - :bd
+      :ad: 
+        :name: Eastern United States
+        :neighbors: 
+        - :ac
+        - :ai
+        - :ag
+        - :ah
+      :ae: 
+        :name: Greenland
+        :neighbors: 
+        - :af
+        - :ag
+        - :ah
+        - :cb
+      :af: 
+        :name: Northwest Territory
+        :neighbors: 
+        - :aa
+        - :ab
+        - :ae
+        - :ag
+      :ag: 
+        :name: Ontario
+        :neighbors: 
+        - :ab
+        - :ad
+        - :ae
+        - :af
+        - :ah
+        - :ai
+      :ah: 
+        :name: Quebec
+        :neighbors: 
+        - :ad
+        - :ae
+        - :ag
+      :ai: 
+        :name: Western United States
+        :neighbors: 
+        - :ab
+        - :ac
+        - :ad
+        - :ag
   :b: 
-  - :ba
-  - :bb
-  - :bc
-  - :bd
+    :name: South America
+    :reinforcements: 2
+    :territories:
+      :ba: 
+        :name: Argentina
+        :neighbors: 
+        - :bc
+        - :bb
+      :bb: 
+        :name: Brazil
+        :neighbors: 
+        - :ba
+        - :bc
+        - :bd
+        - :de
+      :bc: 
+        :name: Peru
+        :neighbors: 
+        - :ba
+        - :bb
+        - :bd
+      :bd: 
+        :name: Venezuela
+        :neighbors: 
+        - :ac
+        - :bb
+        - :bc
   :c: 
-  - :ca
-  - :cb
-  - :cc
-  - :cd
-  - :ce
-  - :cf
-  - :cg
+    :name: Europe
+    :reinforcements: 5
+    :territories:
+      :ca: 
+        :name: Great Britain
+        :neighbors: 
+        - :cb
+        - :cg
+        - :cc
+        - :cd
+      :cb: 
+        :name: Iceland
+        :neighbors: 
+        - :ae
+        - :ca
+        - :cd
+      :cc: 
+        :name: Northern Europe
+        :neighbors: 
+        - :ca
+        - :ce
+        - :cg
+        - :cd
+        - :cf
+      :cd: 
+        :name: Scandinavia
+        :neighbors: 
+        - :ca
+        - :cb
+        - :cc
+        - :cf
+      :ce: 
+        :name: Southern Europe
+        :neighbors: 
+        - :cc
+        - :cf
+        - :cg
+        - :eg
+        - :dc
+        - :de
+      :cf: 
+        :name: Ukraine
+        :neighbors: 
+        - :cc
+        - :cd
+        - :ce
+        - :eg
+        - :ea
+        - :ek
+      :cg: 
+        :name: Western Europe
+        :neighbors: 
+        - :ca
+        - :cc
+        - :ce
+        - :de
   :d: 
-  - :da
-  - :db
-  - :dc
-  - :dd
-  - :de
-  - :df
+    :name: Africa
+    :reinforcements: 3
+    :territories:
+      :da: 
+        :name: Congo
+        :neighbors: 
+        - :db
+        - :de
+        - :df
+      :db: 
+        :name: East Africa
+        :neighbors: 
+        - :da
+        - :dc
+        - :dd
+        - :de
+        - :df
+      :dc: 
+        :name: Egypt
+        :neighbors: 
+        - :ce
+        - :db
+        - :de
+        - :eg
+      :dd: 
+        :name: Madagascar
+        :neighbors: 
+        - :db
+        - :df
+      :de: 
+        :name: North Africa
+        :neighbors: 
+        - :bb
+        - :ce
+        - :cg
+        - :da
+        - :db
+        - :dc
+      :df: 
+        :name: South Africa
+        :neighbors: 
+        - :da
+        - :db
+        - :dd
   :e: 
-  - :ea
-  - :eb
-  - :ec
-  - :ed
-  - :ee
-  - :ef
-  - :eg
-  - :eh
-  - :ei
-  - :ej
-  - :ek
-  - :el
+    :name: Asia
+    :reinforcements: 7
+    :territories:
+      :ea: 
+        :name: Afghanistan
+        :neighbors: 
+        - :cf
+        - :ek
+        - :db
+        - :ec
+        - :eg
+      :eb: 
+        :name: China
+        :neighbors: 
+        - :da
+        - :ec
+        - :eh
+        - :ej
+        - :ek
+        - :ei
+      :ec: 
+        :name: India
+        :neighbors: 
+        - :ea
+        - :eb
+        - :ei
+        - :eg
+      :ed: 
+        :name: Irkutsk
+        :neighbors: 
+        - :ej
+        - :el
+        - :ef
+        - :eh
+      :ee: 
+        :name: Japan
+        :neighbors: 
+        - :ef
+        - :eh
+      :ef: 
+        :name: Kamchatka
+        :neighbors: 
+        - :aa
+        - :ed
+        - :ee
+        - :eh
+        - :el
+      :eg: 
+        :name: Middle East
+        :neighbors: 
+        - :ce
+        - :cf
+        - :dc
+        - :ea
+        - :ec
+      :eh: 
+        :name: Mongolia
+        :neighbors: 
+        - :eb
+        - :ed
+        - :ee
+        - :ef
+        - :ej
+      :ei: 
+        :name: Siam
+        :neighbors: 
+        - :fb
+        - :eb
+        - :ec
+      :ej: 
+        :name: Siberia
+        :neighbors: 
+        - :eb
+        - :ed
+        - :eh
+        - :ek
+        - :el
+      :ek: 
+        :name: Ural
+        :neighbors: 
+        - :cf
+        - :ea
+        - :eb
+        - :ej
+      :el: 
+        :name: Yakutsk
+        :neighbors: 
+        - :ed
+        - :ef
+        - :ej
   :f: 
-  - :fa
-  - :fb
-  - :fc
-  - :fd
+    :name: Australia
+    :reinforcements: 2
+    :territories:
+      :fa: 
+        :name: Eastern Australia
+        :neighbors: 
+        - :fc
+        - :fd
+      :fb: 
+        :name: Indonesia
+        :neighbors: 
+        - :ei
+        - :fc
+        - :fa
+      :fc: 
+        :name: New Guinea
+        :neighbors: 
+        - :fa
+        - :fb
+        - :fd
+      :fd: 
+        :name: Western Australia
+        :neighbors: 
+        - :fa
+        - :fb
+        - :fc
+

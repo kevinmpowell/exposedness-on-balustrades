@@ -11,11 +11,6 @@
 # **territory_id ** | `integer         ` | ``
 # **updated_at   ** | `datetime        ` | `not null`
 #
-# Indexes
-#
-#  index_cards_on_board_id      (board_id)
-#  index_cards_on_territory_id  (territory_id)
-#
 
 class Card < ActiveRecord::Base
   attr_accessible :name

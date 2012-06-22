@@ -11,10 +11,6 @@
 # **ruleset_id ** | `integer         ` | ``
 # **updated_at ** | `datetime        ` | `not null`
 #
-# Indexes
-#
-#  index_phases_on_ruleset_id  (ruleset_id)
-#
 
 class Phase < ActiveRecord::Base
   belongs_to :ruleset

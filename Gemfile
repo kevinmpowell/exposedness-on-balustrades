@@ -10,6 +10,7 @@ group :development do
   gem 'annotate', '2.5.0pre1'
   gem 'guard-rspec', '0.7.3'
   gem 'guard-spork', '0.8.0'
+  gem 'pry-rails'
 end
 
 group :development, :test do

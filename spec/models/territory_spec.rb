@@ -10,10 +10,6 @@
 # **updated_at ** | `datetime        ` | `not null`
 # **zone_id    ** | `integer         ` | ``
 #
-# Indexes
-#
-#  index_territories_on_zone_id  (zone_id)
-#
 
 require 'spec_helper'
 
