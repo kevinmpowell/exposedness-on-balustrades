@@ -2,7 +2,7 @@
 
 require 'yaml'
 
-board_data = YAML::load(File.open('reference\mapping\classic_map.yml'))
+board_data = YAML::load(File.open('reference/mapping/classic_map.yml'))
 
 # this transaction is the difference between a 15 second run and a 1 second run (after rails loads)
 ActiveRecord::Base.transaction do
