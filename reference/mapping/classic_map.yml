@@ -7,12 +7,14 @@
     :territories:
       :aa: 
         :name: Alaska
+        :card: Infantry
         :neighbors:
           - :af
           - :ab
           - :ef
       :ab: 
         :name: Alberta
+        :card: Infantry
         :neighbors: 
         - :aa
         - :af
@@ -20,12 +22,14 @@
         - :ai
       :ac: 
         :name: Central America
+        :card: Infantry
         :neighbors: 
         - :ai
         - :ad
         - :bd
       :ad: 
         :name: Eastern United States
+        :card: Infantry
         :neighbors: 
         - :ac
         - :ai
@@ -33,6 +37,7 @@
         - :ah
       :ae: 
         :name: Greenland
+        :card: Infantry
         :neighbors: 
         - :af
         - :ag
@@ -40,6 +45,7 @@
         - :cb
       :af: 
         :name: Northwest Territory
+        :card: Infantry
         :neighbors: 
         - :aa
         - :ab
@@ -47,6 +53,7 @@
         - :ag
       :ag: 
         :name: Ontario
+        :card: Infantry
         :neighbors: 
         - :ab
         - :ad
@@ -56,12 +63,14 @@
         - :ai
       :ah: 
         :name: Quebec
+        :card: Infantry
         :neighbors: 
         - :ad
         - :ae
         - :ag
       :ai: 
         :name: Western United States
+        :card: Infantry
         :neighbors: 
         - :ab
         - :ac
@@ -73,11 +82,13 @@
     :territories:
       :ba: 
         :name: Argentina
+        :card: Infantry
         :neighbors: 
         - :bc
         - :bb
       :bb: 
         :name: Brazil
+        :card: Infantry
         :neighbors: 
         - :ba
         - :bc
@@ -85,12 +96,14 @@
         - :de
       :bc: 
         :name: Peru
+        :card: Infantry
         :neighbors: 
         - :ba
         - :bb
         - :bd
       :bd: 
         :name: Venezuela
+        :card: Infantry
         :neighbors: 
         - :ac
         - :bb
@@ -101,6 +114,7 @@
     :territories:
       :ca: 
         :name: Great Britain
+        :card: Infantry
         :neighbors: 
         - :cb
         - :cg
@@ -108,12 +122,14 @@
         - :cd
       :cb: 
         :name: Iceland
+        :card: Infantry
         :neighbors: 
         - :ae
         - :ca
         - :cd
       :cc: 
         :name: Northern Europe
+        :card: Infantry
         :neighbors: 
         - :ca
         - :ce
@@ -122,6 +138,7 @@
         - :cf
       :cd: 
         :name: Scandinavia
+        :card: Infantry
         :neighbors: 
         - :ca
         - :cb
@@ -129,6 +146,7 @@
         - :cf
       :ce: 
         :name: Southern Europe
+        :card: Infantry
         :neighbors: 
         - :cc
         - :cf
@@ -138,6 +156,7 @@
         - :de
       :cf: 
         :name: Ukraine
+        :card: Infantry
         :neighbors: 
         - :cc
         - :cd
@@ -147,6 +166,7 @@
         - :ek
       :cg: 
         :name: Western Europe
+        :card: Infantry
         :neighbors: 
         - :ca
         - :cc
@@ -158,12 +178,14 @@
     :territories:
       :da: 
         :name: Congo
+        :card: Infantry
         :neighbors: 
         - :db
         - :de
         - :df
       :db: 
         :name: East Africa
+        :card: Infantry
         :neighbors: 
         - :da
         - :dc
@@ -172,6 +194,7 @@
         - :df
       :dc: 
         :name: Egypt
+        :card: Infantry
         :neighbors: 
         - :ce
         - :db
@@ -179,11 +202,13 @@
         - :eg
       :dd: 
         :name: Madagascar
+        :card: Infantry
         :neighbors: 
         - :db
         - :df
       :de: 
         :name: North Africa
+        :card: Infantry
         :neighbors: 
         - :bb
         - :ce
@@ -193,6 +218,7 @@
         - :dc
       :df: 
         :name: South Africa
+        :card: Infantry
         :neighbors: 
         - :da
         - :db
@@ -203,6 +229,7 @@
     :territories:
       :ea: 
         :name: Afghanistan
+        :card: Infantry
         :neighbors: 
         - :cf
         - :ek
@@ -211,6 +238,7 @@
         - :eg
       :eb: 
         :name: China
+        :card: Infantry
         :neighbors: 
         - :da
         - :ec
@@ -220,6 +248,7 @@
         - :ei
       :ec: 
         :name: India
+        :card: Infantry
         :neighbors: 
         - :ea
         - :eb
@@ -227,6 +256,7 @@
         - :eg
       :ed: 
         :name: Irkutsk
+        :card: Infantry
         :neighbors: 
         - :ej
         - :el
@@ -234,11 +264,13 @@
         - :eh
       :ee: 
         :name: Japan
+        :card: Infantry
         :neighbors: 
         - :ef
         - :eh
       :ef: 
         :name: Kamchatka
+        :card: Infantry
         :neighbors: 
         - :aa
         - :ed
@@ -247,6 +279,7 @@
         - :el
       :eg: 
         :name: Middle East
+        :card: Infantry
         :neighbors: 
         - :ce
         - :cf
@@ -255,6 +288,7 @@
         - :ec
       :eh: 
         :name: Mongolia
+        :card: Infantry
         :neighbors: 
         - :eb
         - :ed
@@ -263,12 +297,14 @@
         - :ej
       :ei: 
         :name: Siam
+        :card: Infantry
         :neighbors: 
         - :fb
         - :eb
         - :ec
       :ej: 
         :name: Siberia
+        :card: Infantry
         :neighbors: 
         - :eb
         - :ed
@@ -277,6 +313,7 @@
         - :el
       :ek: 
         :name: Ural
+        :card: Infantry
         :neighbors: 
         - :cf
         - :ea
@@ -284,6 +321,7 @@
         - :ej
       :el: 
         :name: Yakutsk
+        :card: Infantry
         :neighbors: 
         - :ed
         - :ef
@@ -294,23 +332,27 @@
     :territories:
       :fa: 
         :name: Eastern Australia
+        :card: Infantry
         :neighbors: 
         - :fc
         - :fd
       :fb: 
         :name: Indonesia
+        :card: Infantry
         :neighbors: 
         - :ei
         - :fc
         - :fa
       :fc: 
         :name: New Guinea
+        :card: Infantry
         :neighbors: 
         - :fa
         - :fb
         - :fd
       :fd: 
         :name: Western Australia
+        :card: Infantry
         :neighbors: 
         - :fa
         - :fb

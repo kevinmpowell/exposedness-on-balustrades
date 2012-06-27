@@ -13,7 +13,7 @@
 #
 
 class Card < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :name, :wild, :kind
   belongs_to :board
   belongs_to :territory
   has_one :card_ownership

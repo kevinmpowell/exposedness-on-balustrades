@@ -32,14 +32,15 @@ ActiveRecord::Base.transaction do
                               board: this_board,
                               reinforcements: zone_data[:reinforcements] }, without_protection: true)
     
-    zone_data[:territories].each do |territory_code, territory_data|
+    zone_data[:territories].each_pair do |territory_code, territory_data|
       # build territory 
       this_territory = Territory.create({ name: territory_data[:name], 
                                           zone: this_zone }, without_protection: true)
       
       # build card 
-      this_card = Card.create({ name: territory_data[:name], 
-                                territory: this_territory}, without_protection: true)
+      this_card = Card.create({ name: territory_data[:name], board: this_board,
+                                territory: this_territory, kind: territory_data[:card]},
+                                without_protection: true)
            
       # build a couple hashes for use in the 
       codes[territory_code] = this_territory
@@ -52,11 +53,17 @@ ActiveRecord::Base.transaction do
 
   # linking requires a second pass after territories exist
   puts "\n===== Linking Territories ====="
-  links.each do |k,va|
+  links.each_pair do |k,va|
     # link territory to its neighbors
     va.each {|v| codes[k].neighbors << codes[v] }
 
     # status log
     puts "Linked #{codes[k].name} to #{codes[k].neighbors.map {|e| e.name}.join(', ')}"
   end
+
+  2.times do
+    Card.create({ name: 'Wild', board: this_board, wild: true },
+                  without_protection: true)
+  end
+  puts "Created wild cards"
 end # transaction
