@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"obj",
+				"object_size"
+			],
+			[
+				"articleNumber",
+				"articleNumberModal"
+			],
+			[
+				"orderR",
+				"orderRowTemplateId"
+			],
+			[
+				"tot",
+				"total_product_quantity"
+			],
+			[
+				"shipp",
+				"shipping_fee"
+			],
+			[
+				"updateRow",
+				"updateRowButtons"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"isa",
+				"is_array"
+			],
+			[
+				"error",
+				"error-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"cake",
+				"CakePHP API: Search from Input"
+			]
+		],
+		"width": 719.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevin/Sites/mns/app/webroot/js/admin/article_number_detail-ck.js",
+		"/Users/kevin/Sites/mns/app/controllers/ikea_service_controller.php",
+		"/Users/kevin/Sites/mns/app/controllers/users_controller.php",
+		"/Users/kevin/Sites/mns/app/controllers/inventory_controller.php",
+		"/Users/kevin/Sites/mns/app/views/inventory/admin_picklist.ctp",
+		"/Users/kevin/Sites/mns/app/models/inventory.php",
+		"/Users/kevin/Sites/mns/app/app_controller.php",
+		"/Users/kevin/Sites/mns/app/controllers/purchase_orders_controller.php",
+		"/Users/kevin/Sites/mns/app/config/core.php",
+		"/Users/kevin/Sites/mns/app/models/ikea_schedule_date.php",
+		"/Users/kevin/Sites/mns/app/controllers/dashboard_controller.php",
+		"/Users/kevin/Sites/mns/app/views/dashboard/admin_index.ctp",
+		"/Users/kevin/Sites/mns/app/models/purchase_order.php",
+		"/Users/kevin/Sites/mns/app/controllers/ikea_schedule_dates_controller.php",
+		"/Users/kevin/Sites/mns/app/webroot/js/admin/global-ck.js",
+		"/Users/kevin/Sites/foxy_datafeed/output.html",
+		"/Users/kevin/Sites/mns/app/views/elements/admin/purchase_orders/purchase_orders_table.ctp",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_search.ctp",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_filter_results.ctp",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_index.ctp",
+		"/Users/kevin/Sites/mns/app/views/layouts/admin_bootstrap.ctp",
+		"/Users/kevin/Sites/mns/app/webroot/scss/admin_global.scss",
+		"/Users/kevin/Sites/mns/app/views/in_stock_merchandise/admin_view.ctp",
+		"/Users/kevin/Sites/mns/app/views/in_stock_merchandise/admin_edit.ctp",
+		"/Users/kevin/Sites/mns/app/views/in_stock_merchandise/admin_add.ctp",
+		"/Users/kevin/Sites/mns/app/controllers/in_stock_merchandise_controller.php",
+		"/Users/kevin/Sites/mns/app/views/in_stock_categories/admin_index.ctp",
+		"/Users/kevin/Sites/mns/app/views/in_stock_categories/admin_add.ctp",
+		"/Users/kevin/Sites/mns/app/views/in_stock_categories/admin_edit.ctp",
+		"/Users/kevin/Sites/mns/app/views/elements/admin/nav_bootstrap.ctp",
+		"/Users/kevin/Sites/mns/app/views/in_stock_merchandise/admin_index.ctp",
+		"/Users/kevin/Sites/mns/app/controllers/in_stock_categories_controller.php",
+		"/Users/kevin/Sites/mns/app/views/layouts/admin.ctp",
+		"/Users/kevin/Sites/mns/.sass-cache/2619703e66a5683ae662c0c79fa89165a2c06741/admin_global.scssc",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_view.ctp",
+		"/Users/kevin/Sites/mns/app/webroot/css/jquery-ui-1.8.16.custom.css",
+		"/Users/kevin/Sites/mns/app/webroot/css/admin/in_stock_merchandise.css",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_article_number_detail.ctp",
+		"/Users/kevin/Sites/mns/app/webroot/js/admin/article_number_detail.js",
+		"/Users/kevin/Sites/mns/app/webroot/js/admin/global.js",
+		"/Users/kevin/Sites/mns/app/views/elements/admin/ikea_sync.ctp",
+		"/Users/kevin/Sites/mns/app/webroot/scss/bootstrap/_variables.scss",
+		"/Users/kevin/Sites/mns/app/webroot/css/admin/purchase_orders.css",
+		"/Users/kevin/Sites/mns/app/views/purchase_orders/admin_product_details_list.ctp",
+		"/Users/kevin/Sites/mns/app/webroot/scss/bootstrap/font-awesome.scss",
+		"/Users/kevin/Sites/mns/app/webroot/scss/bootstrap/bootstrap.scss",
+		"/Users/kevin/Sites/mns/app/views/users/admin_login.ctp",
+		"/Users/kevin/Sites/mns/app/views/elements/pagination.ctp",
+		"/Users/kevin/Sites/mns/app/models/app_model.php",
+		"/Users/kevin/Sites/mns/app/controllers/bookmarklet_controller.php",
+		"/Users/kevin/Sites/mns/app/tests/cases/models/ikea_location_data.test.php",
+		"/Users/kevin/Sites/mns/app/config/constants.php",
+		"/Users/kevin/Sites/modernash/app/.htaccess",
+		"/Volumes/FOXYDATA/foxycart-trunk/v/0.0.0/themes/responsive/css/base.css",
+		"/Volumes/FOXYDATA/foxycart-trunk/v/0.0.0/themes/responsive/css/cart.css",
+		"/Volumes/FOXYDATA/foxycart-trunk/v/0.0.0/class.foxycart.transaction.php",
+		"/Volumes/FOXYDATA/foxycart-trunk/v/0.0.0/view/checkout_template_responsive.html",
+		"/Volumes/FOXYDATA/foxycart-trunk/v/0.0.0/view/checkout_template_standard.html",
+		"/Users/kevin/.ssh/id_rsa.pub",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/conf/apache/original/httpd.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"no-or",
+			"noResultsMessage",
+			"console",
+			"data(\"partNu",
+			"0",
+			"update_product_totals",
+			"debug",
+			"TransactionDetail",
+			"total_product_quantity",
+			"save_transac",
+			"input",
+			"disabled",
+			"shipping_fee",
+			"debug",
+			"extract_transaction_details",
+			"extract_item_details",
+			"houston",
+			"65",
+			"Directory",
+			"fc-totals-label",
+			"#fc_payment_list",
+			"Verification",
+			"getPayerEmail",
+			"//d",
+			"country",
+			"default",
+			"selectToAutocomplete",
+			"awesomecomplete",
+			"autocomp",
+			"setAutoComplete",
+			"validateLocationName",
+			"autocomplete",
+			"width",
+			"autocomplete",
+			"checkout_email_my_password",
+			"14px",
+			"Virtual hosts",
+			"vhosts.conf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"arti",
+				"app/views/purchase_orders/admin_article_number_detail.ctp"
+			],
+			[
+				"inventory_",
+				"app/controllers/inventory_controller.php"
+			],
+			[
+				"purchase_order_",
+				"app/controllers/purchase_orders_controller.php"
+			],
+			[
+				"core",
+				"app/config/core.php"
+			],
+			[
+				"admin_ind",
+				"app/views/dashboard/admin_index.ctp"
+			],
+			[
+				"ikea_ser",
+				"app/controllers/ikea_service_controller.php"
+			],
+			[
+				"ikea_syn",
+				"app/views/elements/admin/ikea_sync.ctp"
+			],
+			[
+				"admin_edit",
+				"app/views/in_stock_merchandise/admin_edit.ctp"
+			],
+			[
+				"ikea_loca",
+				"app/models/ikea_location_data.php"
+			],
+			[
+				"admin_b",
+				"app/views/layouts/admin_bootstrap.ctp"
+			],
+			[
+				"admin_bo",
+				"app/views/layouts/admin_bootstrap.ctp"
+			],
+			[
+				"purchase_or",
+				"app/models/purchase_order.php"
+			],
+			[
+				"admin_pick",
+				"app/views/inventory/admin_picklist.ctp"
+			],
+			[
+				"global-c",
+				"app/webroot/js/admin/global-ck.js"
+			],
+			[
+				"glob",
+				"app/webroot/js/admin/global-ck.js"
+			],
+			[
+				"ikea_sch",
+				"app/models/ikea_schedule_date.php"
+			],
+			[
+				"nav_boo",
+				"app/views/elements/admin/nav_bootstrap.ctp"
+			],
+			[
+				"admin_glo",
+				"app/webroot/scss/admin_global.scss"
+			],
+			[
+				"global.scss",
+				".sass-cache/2619703e66a5683ae662c0c79fa89165a2c06741/admin_global.scssc"
+			],
+			[
+				"admin_boo",
+				"app/views/layouts/admin_bootstrap.ctp"
+			],
+			[
+				"jquery-u",
+				"app/webroot/css/jquery-ui-1.8.16.custom.css"
+			],
+			[
+				"admin_add.",
+				"app/views/in_stock_merchandise/admin_add.ctp"
+			],
+			[
+				"in_stock_mer",
+				"app/webroot/css/admin/in_stock_merchandise.css"
+			],
+			[
+				"admin_index",
+				"app/views/in_stock_merchandise/admin_index.ctp"
+			],
+			[
+				"article_n",
+				"app/views/purchase_orders/admin_article_number_detail.ctp"
+			],
+			[
+				"articl",
+				"app/webroot/js/admin/article_number_detail.js"
+			],
+			[
+				"artic",
+				"app/views/purchase_orders/admin_article_number_detail.ctp"
+			],
+			[
+				"global",
+				"app/webroot/js/admin/global.js"
+			],
+			[
+				"admin_boot",
+				"app/views/layouts/admin_bootstrap.ctp"
+			],
+			[
+				"ikea_sync",
+				"app/views/elements/admin/ikea_sync.ctp"
+			],
+			[
+				"article_nu",
+				"app/views/purchase_orders/admin_article_number_detail.ctp"
+			],
+			[
+				"core.php",
+				"app/config/core.php"
+			],
+			[
+				"admin_view.ctp",
+				"app/views/purchase_orders/admin_view.ctp"
+			],
+			[
+				"purchase_",
+				"app/controllers/purchase_orders_controller.php"
+			],
+			[
+				"core.",
+				"app/config/core.php"
+			],
+			[
+				"admin_log",
+				"app/views/users/admin_login.ctp"
+			],
+			[
+				"admin_l",
+				"app/views/users/admin_login.ctp"
+			],
+			[
+				"app_con",
+				"app/app_controller.php"
+			],
+			[
+				"admin_view",
+				"app/views/purchase_orders/admin_view.ctp"
+			],
+			[
+				"purchase",
+				"app/models/purchase_order.php"
+			],
+			[
+				"class.foxycart.transaction",
+				"v/0.0.0/class.foxycart.transaction.php"
+			],
+			[
+				"checkout.js",
+				"v/0.0.0/checkout.js"
+			],
+			[
+				"english",
+				"v/0.0.0/lang/english.inc.php"
+			],
+			[
+				"checkout_t",
+				"v/0.0.0/view/checkout_template.html"
+			],
+			[
+				"base.scss",
+				"v/0.0.0/themes/responsive/scss/base.scss"
+			],
+			[
+				"checkout.css",
+				"v/0.0.0/themes/responsive/css/checkout.css"
+			],
+			[
+				"checkout.scss",
+				"v/0.0.0/themes/responsive/scss/checkout.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}
